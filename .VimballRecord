@@ -1,0 +1,1 @@
+mark-2.8.5.vmb: call delete('/home/escher9/.vim/autoload/mark.vim')|call delete('/home/escher9/.vim/autoload/mark/palettes.vim')|call delete('/home/escher9/.vim/plugin/mark.vim')|call delete('/home/escher9/.vim/doc/mark.txt')
