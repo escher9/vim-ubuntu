@@ -293,21 +293,20 @@ vmap `j :call AssistEncloseWithAutoclose(")")<CR>%i
 " vmap `k :call AssistEncloseWithAutoclose("]")<CR>%i
 " vmap `l :call AssistEncloseWithAutoclose("}")<CR>%i
 
-imap <M-0> ()<Left>
-imap <M-9> ()<Left>
+imap `j ()<Left>
 imap `k ()<Left>
-imap <M-4> $$<Left>
+imap `4 $$<Left>
 " inoremap <M->> <><Left>
 " inoremap <M-<> <><Left>
-imap <M-]> []<Left>
-imap <M-[> {}<Left>
-imap <M-'> ''<Left>
-imap <M-;> ""<Left>
+imap `] []<Left>
+imap `[ {}<Left>
+imap `' ''<Left>
+imap `; ""<Left>
 nmap <C-\><C-\> :Align&<CR>
 imap <C-o><C-o> <ESC>o
 " imap <C-o><C-o> <ESC><C-e>o
+"eowifjowiejf" 
 
- 
 
 " '"<[{()}]>"'
 " 'abc'
@@ -1189,7 +1188,7 @@ nmap ,,S o----------------------------------------------------------------------
 nmap ,,s O-------------------------------------------------------------------------------------------------------<ESC>j<Home>
 
 " imap `j <ESC>:call Openr()<cr>
-imap `j <M-{><cr><C-o><C-i>
+" imap `j <M-{><cr><C-o><C-i>
 " fun! Openr()
     " startinsert!
 " endf
